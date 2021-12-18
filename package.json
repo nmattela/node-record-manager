@@ -1,0 +1,11 @@
+{
+  "name": "node-record-mapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:nmattela/node-record-mapper.git",
+  "author": "nmattela <nmattela@infogroep.be>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
