@@ -1,5 +1,5 @@
 # node-record-manager
-Expose Create Read Update Delete (CRUD) methods on records provided by a backend. Fully functional to integrate well with React applications
+Expose Create Read Update Delete (CRUD) methods on records provided by an API. Fully functional to integrate well with React applications
 
 # Context
 Suppose a REST API exposes a route to fetch users, and returns these users in JSON format. Example:
