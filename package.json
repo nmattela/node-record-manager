@@ -5,7 +5,15 @@
   "repository": "git@github.com:nmattela/node-record-mapper.git",
   "author": "nmattela <nmattela@infogroep.be>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node ./build/index.js",
+    "test": "tsc -p tsconfig.test.json && node ./build/test/test.js"
+  },
   "devDependencies": {
     "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "axios": "^0.24.0"
   }
 }
